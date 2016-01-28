@@ -1,6 +1,6 @@
 # memcached session manager
 
-[![Build Status](https://jenkins.inoio.de/job/memcached-session-manager%20master/badge/icon)](https://jenkins.inoio.de/job/memcached-session-manager%20master/)
+[![Build Status](https://secure.travis-ci.org/jbuchbinder/memcached-session-manager.png)](http://travis-ci.org/jbuchbinder/memcached-session-manager)
 
 memcached-session-manager is a tomcat session manager that keeps sessions in memcached, for highly available, scalable and fault tolerant web applications.
 It supports both sticky and non-sticky configurations, and is currently working with tomcat 6.x and 7.x. For sticky sessions session failover (tomcat crash)
